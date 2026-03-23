@@ -1,43 +1,97 @@
-## Добро пожаловать 👋
-# Обо мне
+# Привет, я Тина Юмашева 👋
 
-Меня зовут Тина Юмашева. У меня высшее образование в области архитектуры, которое я получила в Московском Архитектурном Институте. Я — **промт-инженер**, обожающий нейросети, и **UI/UX-дизайнер** с продуманным подходом к созданию продуктов. Мой опыт позволяет сочетать технические и креативные навыки для разработки интуитивно понятных и эффективных решений.
+[![Telegram](https://img.shields.io/badge/Telegram-@tina__yuma-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/tina_yuma)
+[![GitHub](https://img.shields.io/badge/GitHub-TinaUma-181717?style=flat&logo=github)](https://github.com/TinaUma)
 
-## 👩‍💻 Основные навыки и компетенции:
+Архитектор по образованию → промт-инженер и разработчик по призванию. Строю реальные продукты с нуля: от идеи до работающего решения. Сочетаю технические и дизайн-навыки для создания интуитивно понятных продуктов.
 
-### **Промптинг и взаимодействие с LLM:**
-- Глубокое понимание принципов работы больших языковых моделей (LLM).
-- Практический опыт работы с различными LLM и их API (например, ChatGPT, Claude).
-- Искусство составления эффективных промптов (few-shot learning, chain-of-thought и другие техники).
-- Понимание контекста и ограничений LLM.
-- Анализ и интерпретация ответов LLM для получения полезных данных.
-- Разработка веб-приложений и интеграция с LLM.
-- Создание чат-ботов и виртуальных ассистентов для работы с текстом, аудио, видео и изображениями.
+---
 
-## 💼 Технические навыки:
-- Программирование на Python, включая библиотеки для работы с LLM (например, LangChain).
-- Базовые знания машинного обучения и дообучения (fine-tuning) моделей.
-- Автоматизии процессов с помощью сервиса n8n в том числе с вложенными флоу (11Labs + HeyGen)
-- Управление данными и оптимизация процессов с помощью ИИ.
-- Навыки в области продуктов и бизнеса:
-  - Понимание бизнес-процессов и их оптимизация с использованием ИИ.
-  - Управление проектами, связанными с внедрением ИИ.
-  - Знание отраслевых трендов и успешных кейсов применения ИИ.
+## 🤖 Промптинг и LLM
 
-### **UI/UX и продуктовый дизайн:**
-- Опыт в UI/UX-дизайне с акцентом на удобство и удовлетворение потребностей пользователей.
-- Глубокое владение инструментами графического и веб-дизайна (Adobe Photoshop, Procreate, Figma).
-- Использование ИИ для генерации креативных материалов и повышения эффективности рабочих процессов.
+![Claude](https://img.shields.io/badge/Claude-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-OpenAI-74AA9C?style=flat&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 
-## 💼 Этика и юридические аспекты:
-- Осведомленность об этических проблемах и рисках, связанных с использованием ИИ.
-- Понимание юридических аспектов, таких как авторское право и конфиденциальность.
+- Глубокое понимание принципов работы LLM и их практическое применение
+- Техники промптинга: few-shot learning, chain-of-thought, system prompting
+- AI-assisted разработка: создание полноценных продуктов совместно с Claude Code
+- Разработка AI-агентов, чат-ботов и автоматизированных пайплайнов
+- Создание ботов для работы с текстом, аудио, видео, изображениями
 
-## 💼 Софт-скиллы:
-- Дружелюбный и жизнерадостный человек, легко выстраиваю позитивные отношения с коллегами.
-- Ориентирована на достижение результата и высокое качество работы.
-- Люблю и умею работать в команде, эффективно взаимодействую с коллегами разных ролей и уровней.
+---
 
-## 🌟 Что меня вдохновляет:
-Я нахожу вдохновение на стыке искусства, технологий и инноваций. Постоянно исследую, как нейросети могут изменить представление о творчестве и решении задач, и стремлюсь создавать значимые и ориентированные на будущее решения.
+## 💻 Разработка на Python
 
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
+![aiogram](https://img.shields.io/badge/aiogram-3.x-2CA5E0?style=flat&logo=telegram&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets_API-34A853?style=flat&logo=googlesheets&logoColor=white)
+![APScheduler](https://img.shields.io/badge/APScheduler-cron_jobs-FF6B35?style=flat)
+
+- **Telegram-боты** на aiogram 3.x: FSM, Router, Middleware, inline-клавиатуры
+- **Google Sheets API** (gspread + service account) — интеграция с таблицами
+- **APScheduler** — планировщик задач (cron, lifecycle management)
+- **OCR / Computer Vision R&D**: EasyOCR + Pillow (preprocessing, center crop)
+- Конфигурация через `.env`, чистая архитектура handlers / services / config
+
+---
+
+## 🔐 Безопасность и архитектура
+
+![Security](https://img.shields.io/badge/Security-Whitelist_Auth-DC143C?style=flat)
+
+- Whitelist-авторизация через Middleware (проверка Telegram user ID)
+- Управление секретами: `.env`, `.gitignore`, разделение конфигурации
+- Silent admin logging — тихое уведомление при попытке несанкционированного доступа
+- Чистая архитектура: разделение слоёв, FSM для сложных сценариев ввода
+
+---
+
+## 🔧 Git и DevOps
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+
+- Git Flow: `master` (stable) + `feature/*` (R&D) ветки
+- Работа с несколькими remote одновременно (GitLab + GitHub)
+- Подготовка публичного портфолио: sanitize sensitive data, orphan commits
+- Docker / systemd деплой — в процессе освоения
+
+---
+
+## ⚡ Автоматизация процессов
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+
+- n8n: сложные флоу с вложенными автоматизациями (11Labs + HeyGen)
+- Оптимизация бизнес-процессов с помощью ИИ
+
+---
+
+## 🎨 UI/UX и дизайн
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat&logo=adobephotoshop&logoColor=white)
+![Procreate](https://img.shields.io/badge/Procreate-000000?style=flat)
+
+- UI/UX-дизайн с акцентом на удобство пользователя
+- Высшее образование: Московский Архитектурный Институт (МАРХИ)
+- Использование ИИ для генерации креативных материалов
+
+---
+
+## 🗂 Проекты
+
+### [🏠 Utility Bot](https://github.com/TinaUma/utility-bot)
+Telegram-бот для учёта коммунальных платежей с интеграцией Google Sheets.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![aiogram](https://img.shields.io/badge/aiogram_3.x-2CA5E0?style=flat&logo=telegram&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat&logo=googlesheets&logoColor=white)
+
+FSM · APScheduler · Whitelist security · Git Flow
+
+---
+
+*Москва · открыта к интересным проектам*
