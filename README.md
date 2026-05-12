@@ -2,10 +2,11 @@
 
 [![Telegram](https://img.shields.io/badge/Telegram-@tina__yuma-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/tina_yuma)
 [![GitHub](https://img.shields.io/badge/GitHub-TinaUma-181717?style=flat&logo=github)](https://github.com/TinaUma)
+[![Portfolio](https://img.shields.io/badge/Portfolio-tinacodes.space-FF6B35?style=flat&logo=googlechrome&logoColor=white)](https://tinacodes.space)
 
 Архитектор по образованию → Python AI Developer по призванию.  
 Строю full-stack AI приложения: от идеи до публичного деплоя.  
-FastAPI + Next.js + LLM API + Docker — в production, не в ноутбуке.
+FastAPI + React + LLM API + Docker — в production, не в ноутбуке.
 
 ---
 
@@ -13,13 +14,14 @@ FastAPI + Next.js + LLM API + Docker — в production, не в ноутбуке
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat&logo=anthropic&logoColor=white)
 
 - Полный цикл: REST API (FastAPI) + React/Next.js фронтенд + Docker деплой
 - Интеграция LLM API (Anthropic, OpenAI, Groq) в продуктовые приложения
-- Публичный деплой на HuggingFace Spaces, Railway, VPS
+- Публичный деплой на VPS (собственный домен), HuggingFace Spaces, Railway
 - Multi-provider архитектура — одна кодовая база, несколько AI-провайдеров
 - Vision API: анализ изображений, извлечение структурированных данных
 
@@ -28,13 +30,13 @@ FastAPI + Next.js + LLM API + Docker — в production, не в ноутбуке
 ## 🤖 Telegram-боты и автоматизация
 
 ![aiogram](https://img.shields.io/badge/aiogram-3.x-2CA5E0?style=flat&logo=telegram&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_Whisper-F55036?style=flat&logo=groq&logoColor=white)
 ![Google Sheets](https://img.shields.io/badge/Google_Sheets_API-34A853?style=flat&logo=googlesheets&logoColor=white)
-![APScheduler](https://img.shields.io/badge/APScheduler-cron_jobs-FF6B35?style=flat)
 
 - **Telegram-боты** на aiogram 3.x: FSM, Router, Middleware, inline-клавиатуры
+- **Voice AI**: транскрипция голосовых сообщений через Groq Whisper API
+- **RAG-архитектура**: база знаний + Claude API как слой структурирования
 - **Google Sheets API** (gspread + service account) — интеграция с таблицами
-- **APScheduler** — планировщик задач (cron, lifecycle management)
-- Whitelist-авторизация через Middleware (проверка Telegram user ID)
 - Чистая архитектура: handlers / services / config / `.env`
 
 ---
@@ -43,24 +45,28 @@ FastAPI + Next.js + LLM API + Docker — в production, не в ноутбуке
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![VPS](https://img.shields.io/badge/VPS-собственный_домен-6DB33F?style=flat&logo=linux&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
-- Docker: multi-stage builds, Dockerfile, публичный деплой
+- Docker: multi-stage builds, Dockerfile, docker-compose, healthcheck
+- Деплой на VPS: настройка домена, DNS, Nginx, HTTPS — tinacodes.space
+- Инфраструктурные контейнеры: VPN sing-box VLESS Reality + мониторинг
 - Git Flow: `main` + `feature/*`, работа с несколькими remote
 - Управление секретами: `.env`, `.gitignore`, sanitize перед публикацией
-- CI/CD: деплой через HuggingFace Spaces (Docker SDK)
 
 ---
 
-## 🤝 LLM и промптинг
+## 🤖 LLM, промптинг и AI-инструменты
 
 ![Claude](https://img.shields.io/badge/Claude-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-OpenAI-74AA9C?style=flat&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-8B5CF6?style=flat)
+![Claude Code](https://img.shields.io/badge/Claude_Code-VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 
+- **MCP (Model Context Protocol)** — ежедневный рабочий инструмент
+- **Claude Code** как основной инструмент разработки в VS Code
 - Техники промптинга: few-shot, chain-of-thought, system prompting
-- AI-assisted разработка: Claude Code как инструмент в рабочем процессе
-- Разработка AI-агентов и автоматизированных пайплайнов
+- RAG: база знаний, retrieval, структурированный вывод через Pydantic
+- Осознанный выбор температуры (0.3) для исключения галлюцинаций
 
 ---
 
@@ -77,24 +83,55 @@ FastAPI + Next.js + LLM API + Docker — в production, не в ноутбуке
 
 ## 🗂 Проекты
 
+### [✏️ PDF Signer](https://github.com/TinaUma/PDF_Signer) · [Live Demo](https://tinacodes.space)
+Веб-инструмент для наложения рукописной подписи на документы. Полностью локально — никакие данные не покидают устройство.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+FastAPI + React + Docker · VPS деплой · rembg → threshold алгоритм · PyMuPDF
+
+---
+
+### [📄 PDF Signer Landing](https://github.com/TinaUma/pdf-signer-landing) · [Live Demo](https://tinauma.github.io/pdf-signer-landing/)
+Кейс «Один продукт, два подхода»: лендинг сделан вручную (HTML/CSS) и через Claude Design. Сравнение скорости, контроля и качества.
+
+![HTML](https://img.shields.io/badge/HTML/CSS-E34F26?style=flat&logo=html5&logoColor=white)
+![Claude Design](https://img.shields.io/badge/Claude_Design-D97757?style=flat&logo=anthropic&logoColor=white)
+
+Два подхода · сравнительный анализ · продуктовое мышление
+
+---
+
 ### [🎨 VisionStyle](https://github.com/TinaUma/VisionStyle) · [Live Demo](https://tinaume-visionstyle.hf.space)
-Анализатор визуального стиля на основе Claude Vision API. Загрузи фото → получи цвета, материалы, настроение, вердикт.
+Анализатор визуального стиля на основе Claude Vision API. Загрузи фото — получи цвета, материалы, настроение, вердикт.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat&logo=anthropic&logoColor=white)
 
-Full-stack · публичный деплой · multi-provider LLM
+Full-stack · multi-provider LLM · HuggingFace деплой
 
 ---
 
-### [🏠 Utility Bot](https://github.com/TinaUma/utility-bot)
-Telegram-бот для учёта коммунальных платежей с интеграцией Google Sheets.
+### [🎙️ VoiceScribe](https://github.com/TinaUma/voicescribe)
+Telegram-бот для транскрипции голосовых сообщений через Groq Whisper API. Отправь голосовое — получи текст. Сохрани в TXT или PDF.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![aiogram](https://img.shields.io/badge/aiogram_3.x-2CA5E0?style=flat&logo=telegram&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat&logo=googlesheets&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_Whisper-F55036?style=flat)
 
-FSM · APScheduler · Whitelist security · Git Flow
+Voice AI · автоопределение языка · 30 pytest тестов · файлы в памяти
+
+---
+
+### [🛡️ h3llo-vpn-demo](https://github.com/TinaUma/h3llo-vpn-demo)
+Переиспользуемый VPN-прокси контейнер на sing-box (VLESS Reality). Портфолио-версия инфраструктурного решения.
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
+
+Infrastructure · self-hosted · healthcheck · Telegram алерты
