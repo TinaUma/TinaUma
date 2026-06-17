@@ -96,17 +96,6 @@ FastAPI + React 19 + Konva.js · Tauri (Windows .exe) · Docker Compose · PyMuP
 
 ---
 
-### [✏️ PDF Signer](https://github.com/TinaUma/PDF_Signer)
-Веб-инструмент для наложения рукописной подписи на документы. Полностью локально — никакие данные не покидают устройство.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
-FastAPI + React + Docker · VPS деплой · rembg → threshold алгоритм · PyMuPDF
-
----
 
 ### [📄 PDF Signer Landing](https://github.com/TinaUma/pdf-signer-landing) · [Live Demo](https://tinauma.github.io/pdf-signer-landing/)
 Кейс «Один продукт, два подхода»: лендинг сделан вручную (HTML/CSS) и через Claude Design. Сравнение скорости, контроля и качества.
