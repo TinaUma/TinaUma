@@ -83,7 +83,20 @@ FastAPI + React + LLM API + Docker — в production, не в ноутбуке.
 
 ## 🗂 Проекты
 
-### [✏️ PDF Signer](https://github.com/TinaUma/PDF_Signer) · [Live Demo](https://tinacodes.space)
+### [🖊️ SignDrop](https://github.com/TinaUma/signdrop) · [Лендинг](https://signdrop.site) · [Попробовать онлайн](https://signdrop.tinacodes.space)
+Десктопный и веб-инструмент для наложения рукописной подписи на PDF/JPEG/PNG. Полностью локально — никакие данные не покидают устройство. Windows .exe + Docker + публичное демо.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-Windows-24C8DB?style=flat&logo=tauri&logoColor=white)
+
+FastAPI + React 19 + Konva.js · Tauri (Windows .exe) · Docker Compose · PyMuPDF · VPS деплой
+
+---
+
+### [✏️ PDF Signer](https://github.com/TinaUma/PDF_Signer)
 Веб-инструмент для наложения рукописной подписи на документы. Полностью локально — никакие данные не покидают устройство.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
