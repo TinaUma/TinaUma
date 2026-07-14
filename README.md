@@ -1,139 +1,53 @@
 # Привет, я Тина Юмашева 👋
 
+[![QA Portfolio](https://img.shields.io/badge/QA_Portfolio-qa--portfolio-2ECC71?style=flat&logo=checkmarx&logoColor=white)](https://github.com/TinaUma/qa-portfolio)
 [![Telegram](https://img.shields.io/badge/Telegram-@tina__yuma-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/tina_yuma)
 [![GitHub](https://img.shields.io/badge/GitHub-TinaUma-181717?style=flat&logo=github)](https://github.com/TinaUma)
-[![Portfolio](https://img.shields.io/badge/Portfolio-tinacodes.space-FF6B35?style=flat&logo=googlechrome&logoColor=white)](https://tinacodes.space)
 
-Архитектор по образованию → Python AI Developer по призванию.  
-Строю full-stack AI приложения: от идеи до публичного деплоя.  
-FastAPI + React + LLM API + Docker — в production, не в ноутбуке.
+Архитектор по образованию → AI-разработчик по практике → **QA Engineer по выбору**.
 
----
-
-## 🚀 Full-Stack AI разработка
-
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat&logo=anthropic&logoColor=white)
-
-- Полный цикл: REST API (FastAPI) + React/Next.js фронтенд + Docker деплой
-- Интеграция LLM API (Anthropic, OpenAI, Groq) в продуктовые приложения
-- Публичный деплой на VPS (собственный домен), HuggingFace Spaces, Railway
-- Multi-provider архитектура — одна кодовая база, несколько AI-провайдеров
-- Vision API: анализ изображений, извлечение структурированных данных
+Тестирую продукты так, как это редко делают на старте карьеры: понимая, что происходит под капотом — от API-контракта и SQL-запроса до логов бэкенда. Ищу позицию **Junior QA Engineer**.
 
 ---
 
-## 🤖 Telegram-боты и автоматизация
+## 🎯 QA Engineering — основной фокус
 
-![aiogram](https://img.shields.io/badge/aiogram-3.x-2CA5E0?style=flat&logo=telegram&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq_Whisper-F55036?style=flat&logo=groq&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Google_Sheets_API-34A853?style=flat&logo=googlesheets&logoColor=white)
+→ **[Полное портфолио: qa-portfolio](https://github.com/TinaUma/qa-portfolio)**
 
-- **Telegram-боты** на aiogram 3.x: FSM, Router, Middleware, inline-клавиатуры
-- **Voice AI**: транскрипция голосовых сообщений через Groq Whisper API
-- **RAG-архитектура**: база знаний + Claude API как слой структурирования
-- **Google Sheets API** (gspread + service account) — интеграция с таблицами
-- Чистая архитектура: handlers / services / config / `.env`
+Флагманский кейс: сквозное тестирование одного флоу (регистрация/авторизация) на 5 архитектурных слоях подряд — UI → API → база данных → логи backend → мобильный веб/PWA.
 
----
-
-## 🔧 DevOps и инфраструктура
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![VPS](https://img.shields.io/badge/VPS-собственный_домен-6DB33F?style=flat&logo=linux&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-
-- Docker: multi-stage builds, Dockerfile, docker-compose, healthcheck
-- Деплой на VPS: настройка домена, DNS, Nginx, HTTPS — tinacodes.space
-- Инфраструктурные контейнеры: VPN sing-box VLESS Reality + мониторинг
-- Git Flow: `main` + `feature/*`, работа с несколькими remote
-- Управление секретами: `.env`, `.gitignore`, sanitize перед публикацией
+- **14 задокументированных дефектов** (2 Critical/Blocker, 5 Major, 7 Minor) — каждый подтверждён минимум двумя независимыми источниками доказательств, не предположением
+- **Пример многослойного расследования:** один и тот же тестовый ввод вскрыл два разных бага в разных слоях — симптом на UI и архитектурную первопричину в коде — наглядно, почему нельзя тестировать только через интерфейс
+- **Инструменты:** Chrome DevTools (Network + Device Mode), Postman, DBeaver/SQL, `docker compose logs` + `grep`, Android Studio + Logcat, Lighthouse
+- **Методология:** тест-анализ (классы эквивалентности, граничные значения), чек-листы, регрессия, exploratory-тестирование по чартеру, баг-репорты в стандартном формате (Severity/Priority/Steps/Evidence)
 
 ---
 
-## 🤖 LLM, промптинг и AI-инструменты
+## ⚡ Технический бэкграунд как УТП
 
-![Claude](https://img.shields.io/badge/Claude-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-8B5CF6?style=flat)
-![Claude Code](https://img.shields.io/badge/Claude_Code-VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+Большинству junior-специалистов в QA продукт виден только снаружи. Я до QA собирала full-stack продукты сама — от идеи до публичного деплоя — и это меняет то, как я тестирую:
 
-- **MCP (Model Context Protocol)** — ежедневный рабочий инструмент
-- **Claude Code** как основной инструмент разработки в VS Code
-- Техники промптинга: few-shot, chain-of-thought, system prompting
-- RAG: база знаний, retrieval, структурированный вывод через Pydantic
-- Осознанный выбор температуры (0.3) для исключения галлюцинаций
+- Понимаю, что REST API, БД и Docker-инфраструктура значат **для разработчика**, поэтому вижу, где именно и почему что-то может сломаться — не просто иду по чек-листу вслепую
+- 10+ продуктов в проде: FastAPI, React/Next.js, PostgreSQL, Docker, интеграции LLM API (Claude, OpenAI, Groq) — реальный стек, с которым буду сталкиваться, тестируя AI-продукты
+- Комфортно использую AI-инструменты в рабочем процессе — не как замену суждению, а как ускоритель, при этом умею проверить и объяснить то, что они выдают, а не слепо доверять
+- Архитектурное образование (МАРХИ) — структурное мышление и внимание к деталям, перенесённое из проектирования зданий в проектирование тест-кейсов
 
 ---
 
-## 🎨 UI/UX и дизайн
+## 🗂 Избранные проекты (полный стек — построено и продакшн-задеплоено)
 
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat&logo=adobephotoshop&logoColor=white)
+**[SignDrop](https://github.com/TinaUma/signdrop)** — инструмент наложения подписи на PDF/JPEG/PNG, полностью локально. FastAPI + React + Docker + Tauri (Windows .exe), публичный деплой.
 
-- UI/UX-дизайн: Figma, Photoshop, Procreate
-- Высшее образование: Московский Архитектурный Институт (МАРХИ)
-- Дизайн-мышление в продуктовой разработке
+**[VisionStyle](https://github.com/TinaUma/VisionStyle)** — анализатор визуального стиля по фото через Claude Vision API. FastAPI + Next.js, HuggingFace-деплой.
 
----
+**[VoiceScribe](https://github.com/TinaUma/voicescribe)** — Telegram-бот транскрипции голоса через Groq Whisper API, 30 pytest-тестов.
 
-## 🗂 Проекты
+**[h3llo-vpn-demo](https://github.com/TinaUma/h3llo-vpn-demo)** — переиспользуемый инфраструктурный контейнер (Docker, healthcheck, алерты).
 
-### [🖊️ SignDrop](https://github.com/TinaUma/signdrop) · [Лендинг](https://signdrop.site) · [Попробовать онлайн](https://signdrop.tinacodes.space)
-Десктопный и веб-инструмент для наложения рукописной подписи на PDF/JPEG/PNG. Полностью локально — никакие данные не покидают устройство. Windows .exe + Docker + публичное демо.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-Windows-24C8DB?style=flat&logo=tauri&logoColor=white)
-
-FastAPI + React 19 + Konva.js · Tauri (Windows .exe) · Docker Compose · PyMuPDF · VPS деплой
+→ Остальные проекты и полный стек-лист — на [tinacodes.space](https://tinacodes.space)
 
 ---
 
+## 🎨 Дизайн-бэкграунд
 
-### [📄 PDF Signer Landing](https://github.com/TinaUma/pdf-signer-landing) · [Live Demo](https://tinauma.github.io/pdf-signer-landing/)
-Кейс «Один продукт, два подхода»: лендинг сделан вручную (HTML/CSS) и через Claude Design. Сравнение скорости, контроля и качества.
-
-![HTML](https://img.shields.io/badge/HTML/CSS-E34F26?style=flat&logo=html5&logoColor=white)
-![Claude Design](https://img.shields.io/badge/Claude_Design-D97757?style=flat&logo=anthropic&logoColor=white)
-
-Два подхода · сравнительный анализ · продуктовое мышление
-
----
-
-### [🎨 VisionStyle](https://github.com/TinaUma/VisionStyle) · [Live Demo](https://tinaume-visionstyle.hf.space)
-Анализатор визуального стиля на основе Claude Vision API. Загрузи фото — получи цвета, материалы, настроение, вердикт.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat&logo=anthropic&logoColor=white)
-
-Full-stack · multi-provider LLM · HuggingFace деплой
-
----
-
-### [🎙️ VoiceScribe](https://github.com/TinaUma/voicescribe)
-Telegram-бот для транскрипции голосовых сообщений через Groq Whisper API. Отправь голосовое — получи текст. Сохрани в TXT или PDF.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![aiogram](https://img.shields.io/badge/aiogram_3.x-2CA5E0?style=flat&logo=telegram&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq_Whisper-F55036?style=flat)
-
-Voice AI · автоопределение языка · 30 pytest тестов · файлы в памяти
-
----
-
-### [🛡️ h3llo-vpn-demo](https://github.com/TinaUma/h3llo-vpn-demo)
-Переиспользуемый VPN-прокси контейнер на sing-box (VLESS Reality). Портфолио-версия инфраструктурного решения.
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
-
-Infrastructure · self-hosted · healthcheck · Telegram алерты
+Высшее образование — Московский Архитектурный Институт (МАРХИ). UI/UX-дизайн: Figma, Photoshop, Procreate. Дизайн-мышление как часть подхода к тестированию — вижу продукт и с точки зрения пользователя, и с точки зрения его структуры.
