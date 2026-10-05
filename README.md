@@ -26,7 +26,7 @@
 * **Backend & Инфраструктура:** FastAPI, Docker, PostgreSQL, векторные БД, GitHub Actions CI/CD, Linux CLI (grep).
 * **Методология:** Page Object Model, Service Object, тест-анализ, кроссплатформенное тестирование, баг-репорты (Severity/Priority), Allure-отчетность.
 
-### 📂 Избранные проекты (построено и задеплоено)
+
 ## 🗂 Избранные проекты (полный стек — построено и продакшн-задеплоено)
 
 **[SignDrop](https://github.com/TinaUma/signdrop)** — инструмент наложения подписи на PDF/JPEG/PNG, полностью локально. FastAPI + React + Docker + Tauri (Windows .exe), публичный деплой.
