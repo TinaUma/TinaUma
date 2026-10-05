@@ -1,39 +1,32 @@
 # Привет, я Тина Юмашева 👋
 
-[![QA Portfolio](https://img.shields.io/badge/QA_Portfolio-qa--portfolio-2ECC71?style=flat&logo=checkmarx&logoColor=white)](https://github.com/TinaUma/qa-portfolio)
-[![Telegram](https://img.shields.io/badge/Telegram-@tina__yuma-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/tina_yuma)
-[![GitHub](https://img.shields.io/badge/GitHub-TinaUma-181717?style=flat&logo=github)](https://github.com/TinaUma)
+[![QA Portfolio](https://img.shields.io/badge/QA_Portfolio-qa--portfolio-success)](#) [![Telegram](https://img.shields.io/badge/Telegram-@tina__yuma-blue)](#)
 
-Архитектор по образованию → AI-разработчик по практике → **QA Engineer по выбору**.
+Архитектор по образованию → AI-разработчик по практике → AI QA Engineer по призванию.
 
-Тестирую продукты так, как это редко делают на старте карьеры: понимая, что происходит под капотом — от API-контракта и SQL-запроса до логов бэкенда. Ищу позицию **Automation QA/QA Engineer**.
+Я тестирую то, что сложнее всего проверить: поведение, логику и галлюцинации LLM. Совмещаю инженерную строгость QA Automation (Python, pytest, Playwright) с глубоким пониманием архитектуры нейросетей под капотом. Не просто прохожу сценарии по чек-листу, а расследую баги на всех уровнях: от UI и API до векторных баз данных и логов пайплайна.
 
----
+### 🎯 Основной фокус: LLM Evaluation & QA Automation
 
-## 🎯 QA Engineering — основной фокус
+* 🧠 **AI Vibe Station** — *Founder / LLM Evaluation Engineer*
+  * Разработала платформу для сравнительного тестирования ведущих языковых моделей (GPT-4, Claude, DeepSeek).
+  * Реализовала систему оценки качества ответов ИИ (метрики релевантности, логичности, выдержки стиля).
 
-→ **[Полное портфолио: qa-portfolio](https://github.com/TinaUma/qa-portfolio)**
+* ⚙️ **ООО Кибертум (ex-Sortula)** — *AI QA Engineer / Python Developer*
+  * Многослойное тестирование реального AI-продукта: UI → API → БД → логи → мобильный веб/PWA.
+  * **249+ автотестов** в продакшне (pytest, Playwright), покрытие сложных Celery-задач для LLM-пайплайнов и интеграции с платежными шлюзами.
+  * Найдено и задокументировано **14 дефектов** (включая Critical/Blocker). Расследование root cause проводилось через `docker compose logs` и анализ исходного кода.
 
-Флагманский кейс: сквозное тестирование одного флоу (регистрация/авторизация) на 5 архитектурных слоях подряд — UI → API → база данных → логи backend → мобильный веб/PWA.
+### 🛠 Технический стек и УТП
 
-- **14 задокументированных дефектов** (2 Critical/Blocker, 5 Major, 7 Minor) — каждый подтверждён минимум двумя независимыми источниками доказательств, не предположением
-- **Пример многослойного расследования:** один и тот же тестовый ввод вскрыл два разных бага в разных слоях — симптом на UI и архитектурную первопричину в коде — наглядно, почему нельзя тестировать только через интерфейс
-- **Инструменты:** Chrome DevTools (Network + Device Mode), Postman, DBeaver/SQL, `docker compose logs` + `grep`, Android Studio + Logcat, Lighthouse
-- **Методология:** тест-анализ (классы эквивалентности, граничные значения), чек-листы, регрессия, exploratory-тестирование по чартеру, баг-репорты в стандартном формате (Severity/Priority/Steps/Evidence)
+Большинству junior-специалистов в QA продукт виден только снаружи. Я до перехода в тестирование собирала full-stack AI-продукты сама (от идеи до публичного деплоя), поэтому вижу, где именно ломается логика:
 
----
+* **AI QA / LLM Evaluation:** Оценка метрик генерации (галлюцинации, релевантность), Prompt Engineering, интеграция LLM API (OpenAI, Claude, Groq), принципы работы RAG-систем.
+* **Automation QA:** Python, pytest, Playwright, REST API testing, Pact (Contract Testing), Locust (нагрузочное тестирование).
+* **Backend & Инфраструктура:** FastAPI, Docker, PostgreSQL, векторные БД, GitHub Actions CI/CD, Linux CLI (grep).
+* **Методология:** Page Object Model, Service Object, тест-анализ, кроссплатформенное тестирование, баг-репорты (Severity/Priority), Allure-отчетность.
 
-## ⚡ Технический бэкграунд как УТП
-
-Большинству junior-специалистов в QA продукт виден только снаружи. Я до QA собирала full-stack продукты сама — от идеи до публичного деплоя — и это меняет то, как я тестирую:
-
-- Понимаю, что REST API, БД и Docker-инфраструктура значат **для разработчика**, поэтому вижу, где именно и почему что-то может сломаться — не просто иду по чек-листу вслепую
-- 10+ продуктов в проде: FastAPI, React/Next.js, PostgreSQL, Docker, интеграции LLM API (Claude, OpenAI, Groq) — реальный стек, с которым буду сталкиваться, тестируя AI-продукты
-- Комфортно использую AI-инструменты в рабочем процессе — не как замену суждению, а как ускоритель, при этом умею проверить и объяснить то, что они выдают, а не слепо доверять
-- Архитектурное образование (МАРХИ) — структурное мышление и внимание к деталям, перенесённое из проектирования зданий в проектирование тест-кейсов
-
----
-
+### 📂 Избранные проекты (построено и задеплоено)
 ## 🗂 Избранные проекты (полный стек — построено и продакшн-задеплоено)
 
 **[SignDrop](https://github.com/TinaUma/signdrop)** — инструмент наложения подписи на PDF/JPEG/PNG, полностью локально. FastAPI + React + Docker + Tauri (Windows .exe), публичный деплой.
