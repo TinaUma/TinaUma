@@ -1,6 +1,6 @@
 # Привет, я Тина Юмашева 👋
 
-[![QA Portfolio](https://img.shields.io/badge/QA_Portfolio-qa--portfolio-success)](#) [![Telegram](https://img.shields.io/badge/Telegram-@tina__yuma-blue)](#)
+[![QA Portfolio](https://img.shields.io/badge/QA_Portfolio-qa--portfolio-success)](https://github.com/TinaUma/qa-portfolio) [![Telegram](https://img.shields.io/badge/Telegram-@tina__yuma-blue)](#)
 
 Архитектор по образованию → AI-разработчик по практике → AI QA Engineer по призванию.
 
@@ -16,6 +16,7 @@
   * Многослойное тестирование реального AI-продукта: UI → API → БД → логи → мобильный веб/PWA.
   * **249+ автотестов** в продакшне (pytest, Playwright), покрытие сложных Celery-задач для LLM-пайплайнов и интеграции с платежными шлюзами.
   * Найдено и задокументировано **14 дефектов** (включая Critical/Blocker). Расследование root cause проводилось через `docker compose logs` и анализ исходного кода.
+  * Кейсы: [регистрация и авторизация](https://github.com/TinaUma/qa-portfolio/tree/master/cases/001-registration-form) · [Export и Settings API](https://github.com/TinaUma/qa-portfolio/tree/master/cases/002-sortula-api-testing).
 
 ### 🛠 Технический стек и УТП
 
